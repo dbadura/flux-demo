@@ -1,0 +1,5 @@
+name: function-elated-marcin7
+namespace: default
+runtime: python39
+source:
+    sourceType: inline

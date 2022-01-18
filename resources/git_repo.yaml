@@ -1,0 +1,9 @@
+apiVersion: serverless.kyma-project.io/v1alpha
+kind: GitRepository
+metadata:
+  name: dbadura-repo
+spec:
+  url: "https://github.com/dbadura/flux-demo"
+  auth:
+    type: basic
+    secretName: git-credentials

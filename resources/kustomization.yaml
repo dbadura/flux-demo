@@ -4,5 +4,11 @@ commonLabels:
   app: serverless
 resources:
   - fn1.yaml
-  - git-secret.yaml
+  - fn2.yaml
+#  - git-secret.yaml
   - git_repo.yaml
+secretGenerator:
+  - name: git-credentials
+    env: git-repo-credentials.env
+#    envs:
+#      - git-repo-credentials.env

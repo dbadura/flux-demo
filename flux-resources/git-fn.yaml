@@ -1,0 +1,10 @@
+apiVersion: serverless.kyma-project.io/v1alpha1
+kind: Function
+metadata:
+  name: fn1
+spec:
+  type: git
+  runtime: python39
+  source: kyma-demo
+  reference: master
+  baseDir: components/fn1
